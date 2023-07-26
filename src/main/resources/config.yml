@@ -1,0 +1,14 @@
+# Configuration file for the CopyItem plugin by Kaludi.
+#
+# 'announceCommandUsage': Whether to announce to the console and other operators when the /copyitem command is used.
+# 'maxCopyAmount': The maximum amount of items a player can copy at once.
+# 'sightMaxDistance': The maximum distance for the /copyitem sight command.
+# 'bStatsEnabled': Whether to enable bStats metrics for this plugin.
+#
+# After making changes to this file, save and do '/reload' or restart your server.
+
+settings:
+  announceCommandUsage: true
+  maxCopyAmount: 64
+  sightMaxDistance: 100
+  bStatsEnabled: true
