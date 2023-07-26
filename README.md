@@ -1,4 +1,5 @@
 
+
 # CopyItem Plugin
 
 CopyItem is a simple, yet customizable Spigot plugin that allows server operators and players with permission to copy items in their hand or in their sight.
@@ -26,19 +27,20 @@ CopyItem is a simple, yet customizable Spigot plugin that allows server operator
 
 **Config.yml**
 
-
-    # Configuration file for the CopyItem plugin by Kaludi.
-    #
-    # 'announceCommandUsage': Whether to announce to the console and other operators when the /copyitem command is used.
-    # 'maxCopyAmount': The maximum amount of items a player can copy at once.
-    # 'sightMaxDistance': The maximum distance for the /copyitem sight command.
-    #
-    # After making changes to this file, save and do '/reload' or restart your server.
-    
-    settings:
-      announceCommandUsage: true
-      maxCopyAmount: 64
-      sightMaxDistance: 100
+    # Configuration file for the CopyItem plugin by Kaludi.  
+    #  
+    # 'announceCommandUsage': Whether to announce to the console and other operators when the /copyitem command is used.  
+    # 'maxCopyAmount': The maximum amount of items a player can copy at once.  
+    # 'sightMaxDistance': The maximum distance for the /copyitem sight command.  
+    # 'bStatsEnabled': Whether to enable bStats metrics for this plugin.  
+    #  
+    # After making changes to this file, save and do '/reload' or restart your server.  
+      
+    settings:  
+    announceCommandUsage: true  
+    maxCopyAmount: 64  
+    sightMaxDistance: 100  
+    bStatsEnabled: true
 
 **Messages.yml**
 
@@ -55,3 +57,4 @@ CopyItem is a simple, yet customizable Spigot plugin that allows server operator
       commandUsed: "Player %s used /copyitem command to copy %s x%d."
       configReloaded: "&bConfiguration reloaded successfully."
       copyitemHelp: "&bCopyItem Commands:\n/copyitem hand <amount> - Copies the item in your hand.\n/copyitem sight <amount> - Copies the item you're looking at.\n/copyitem reload - Reloads the plugin configuration.\n/copyitem help - Shows this help message."
+
