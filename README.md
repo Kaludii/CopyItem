@@ -1,8 +1,20 @@
-
-
 # CopyItem Plugin
 
-CopyItem is a simple, yet customizable Spigot plugin that allows server operators and players with permission to copy items in their hand or in their sight.
+CopyItem is a simple but fully customizable Spigot plugin that allows server operators and players with permission to copy items in their hand or in their sight.
+
+## CopyItem In Action
+
+### Help Command:
+![Help Command](https://github.com/Kaludii/CopyItem/blob/main/images/help-command.gif?raw=true)
+
+### Hand Command:
+![Hand Command](https://github.com/Kaludii/CopyItem/blob/main/images/hand-command.gif?raw=true)
+
+### Sight Command (Distance Changeable In Config):
+![Sight Command](https://github.com/Kaludii/CopyItem/blob/main/images/sight-command.gif?raw=true)
+
+### Terminal Alerts (Can Be Turned Off In Config):
+![Terminal](https://github.com/Kaludii/CopyItem/blob/main/images/copyitem-terminal.png?raw=true)
 
 ## Features
 
@@ -20,6 +32,7 @@ CopyItem is a simple, yet customizable Spigot plugin that allows server operator
 -   `/copyitem help`: Shows help message.
 
 ## Permissions
+
 -   `copyitem.use`: Allows the use of the `/copyitem` command.
 -   `copyitem.reload`: Allows the use of the `/copyitem reload` command.
 
@@ -58,3 +71,5 @@ CopyItem is a simple, yet customizable Spigot plugin that allows server operator
       configReloaded: "&bConfiguration reloaded successfully."
       copyitemHelp: "&bCopyItem Commands:\n/copyitem hand <amount> - Copies the item in your hand.\n/copyitem sight <amount> - Copies the item you're looking at.\n/copyitem reload - Reloads the plugin configuration.\n/copyitem help - Shows this help message."
 
+## Support
+For any help or support questions, join our [Discord Server](https://discord.gg/ckh7Cvh8).
