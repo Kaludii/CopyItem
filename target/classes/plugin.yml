@@ -1,0 +1,18 @@
+name: CopyItem
+version: '1.0'
+main: com.github.kaludii.copyitem.CopyItem
+api-version: '1.20'
+author: Kaludi
+description: A simple plugin to easily copy items
+
+commands:
+  copyitem:
+    description: Copies the item in your hand or the item you're looking at
+    usage: /<command> hand/sight <amount>
+permissions:
+  copyitem.use:
+    description: Allows the use of the /copyitem command
+    default: op
+  copyitem.reload:
+    description: Allows the use of the /copyitem reload command
+    default: op

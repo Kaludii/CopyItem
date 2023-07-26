@@ -1,0 +1,13 @@
+messages:
+  prefix: "&d&lCopyItem &2&l► &7"
+  copiedSuccessfully: "&bCopied %s x%d successfully."
+  noItemInHand: "&bNo item in hand to copy."
+  noBlockInView: "&bNo block in sight to copy."
+  invalidArgument: "&bInvalid argument."
+  invalidNumberFormat: "&bInvalid number format for amount."
+  invalidCommandUsage: "&bInvalid command usage. Use /copyitem hand/sight/help/reload <amount>."
+  noPermission: "&bYou don't have permission to use this command."
+  onlyPlayersCommand: "Only players can use this command."
+  commandUsed: "Player %s used /copyitem command to copy %s x%d."
+  configReloaded: "&bConfiguration reloaded successfully."
+  copyitemHelp: "&bCopyItem Commands:\n/copyitem hand <amount> - Copies the item in your hand.\n/copyitem sight <amount> - Copies the item you're looking at.\n/copyitem reload - Reloads the plugin configuration.\n/copyitem help - Shows this help message."
